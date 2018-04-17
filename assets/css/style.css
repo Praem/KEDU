@@ -445,13 +445,14 @@ button {
     width: 85%;
     text-align: center;
     margin-left: 7.5%;
-
+}
 
 /*------------------------------------*\
  LOGIN
 \*------------------------------------*/
 
-#kedu-login-background {
+
+#bg-for-login {
 		background: url(../../login.png);
     background-repeat: no-repeat;
     background-size: cover;
