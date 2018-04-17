@@ -3,10 +3,10 @@
 function clicked() {
 	var bruger = document.getElementById('brugernavn');
 	var kode = document.getElementById('adgangskode');
-
+	alert("Virker det her?")
 	var eksbruger = "Johnykudo";
 	var ekskode = "12345";
-	alert("Virker det her?")
+
 	if(bruger.value == eksbruger && kode.value == ekskode) {
 
 		window.alert("Der er logget ind som " + bruger.value);
