@@ -164,7 +164,7 @@ nav li img {
     font-family: cabinsketch;
     font-size: 3em
 }
-	
+
 /*------------------------------------*\
  SIDE DIV CONTAINER
 \*------------------------------------*/
@@ -452,13 +452,13 @@ button {
  LOGIN
 \*------------------------------------*/
 
-.login-bg {
-	background: url(../../login.png);
+#bg-for-login {
+		background: url(../../login.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-	position: fixed;
+		position: fixed;
 }
 
 #login-form {
@@ -490,4 +490,3 @@ button {
 	font-size: 1.5em;
 	margin-bottom: 10px;
 }
-
