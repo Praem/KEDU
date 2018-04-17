@@ -179,11 +179,12 @@ nav li img {
  BOX 1
 \*------------------------------------*/
 .box1 {
-	padding-top: 		20px;
-	width: 				272px;
-	height: 			223px;
-	border-radius: 		28px;
+	padding-top: 				20px;
+	width: 							272px;
+	height: 						223px;
+	border-radius: 			28px;
 	background-color: 	#216393;
+	text-align:center;	center;
 }
 
 .box1 li {
@@ -194,7 +195,6 @@ nav li img {
 }
 
 .box1 b {
-		text-align: 		center;
     margin-bottom: 	1em;
     color: 					#fff;
 }
