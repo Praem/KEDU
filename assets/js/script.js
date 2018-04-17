@@ -3,12 +3,12 @@
 function clicked() {
 	var bruger = document.getElementById('brugernavn');
 	var kode = document.getElementById('adgangskode');
-	
+
 	var eksbruger = "Johnykudo";
 	var ekskode = "12345";
-
+	alert("Virker det her?")
 	if(bruger.value == eksbruger && kode.value == ekskode) {
-			
+
 		window.alert("Der er logget ind som " + bruger.value);
 		window.location.replace("index.html");
 	} else {
@@ -62,7 +62,7 @@ function buildList() {
     editBtn.innerHTML = 'Edit';
 
     editBtn.addEventListener('click', function() {
-      
+
     });
 >>>>>>> 7966b5868770b203d5d418d38f459e62266f1863
 
@@ -72,7 +72,7 @@ function buildList() {
     pElm.innerHTML = '<div class="post-content">' + notes[i].text + '</div><div class="post-meta"><div class="post-info">0 Likes, 0 Kommentar</div><div class="post-buttons"><img src="img/opslag/thumbs-up.svg">Like</div><div class="post-buttons"><img src="img/opslag/message.svg">Kommentar</div><div class="post-buttons"><img src="img/opslag/forward.svg">Del</div></div>';
     pElm.classList.add('NewPost');
     pElm.setAttribute("data-index", i);
-	
+
 	var post = pElm;
 =======
     pElm.innerHTML = notes[i].text;
