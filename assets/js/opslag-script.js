@@ -40,7 +40,7 @@ function buildList() {
 
 
 
-    pElm.innerHTML = '<div class="post-content">' + notes[i].text + '</div><div class="post-meta"><div class="post-info">1 Lyke, mothafucka</div><div class="post-buttons"><b>ABE</b>DCFG</div></div>';
+    pElm.innerHTML = '<div class="post-content">' + notes[i].text + '</div><div class="post-meta"><div class="post-info">0 Likes, 0 Kommentar</div><div class="post-buttons"><img src="img/opslag/thumbs-up.svg">Like</div><div class="post-buttons"><img src="img/opslag/message.svg">Kommentar</div><div class="post-buttons"><img src="img/opslag/forward.svg">Del</div></div>';
     pElm.classList.add('NewPost');
     pElm.setAttribute("data-index", i);
 
