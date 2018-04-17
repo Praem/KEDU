@@ -184,7 +184,7 @@ nav li img {
 	height: 						223px;
 	border-radius: 			28px;
 	background-color: 	#216393;
-	text-align:center;	center;
+	text-align:					center;
 }
 
 .box1 li {
@@ -203,15 +203,15 @@ nav li img {
  BOX 2
 \*------------------------------------*/
 .box2 {
-	margin-top: 		18px;
-	padding-top: 		20px;
-	width: 				272px;
-	height: 			223px;
-	border-radius: 		28px;
+	margin-top: 				18px;
+	padding-top: 				20px;
+	width: 							272px;
+	height: 						223px;
+	border-radius: 			28px;
 	background-color: 	#216393;
-	position: 			relative;
-	z-index:			-10;
-	text-align:center;	center;
+	position: 					relative;
+	z-index:						-10;
+	text-align:					center;
 }
 
 .box2 li {
@@ -220,7 +220,7 @@ nav li img {
 	padding-bottom: 12px;
 	text-align: 		left;
 	padding-left: 	3em;
-	text-lign:			left;
+	text-align:			left;
 }
 
 .box2 b {
@@ -240,7 +240,7 @@ nav li img {
 	background-color: 	#216393;
 	position: 					relative;
 	z-index:						-10;
-	text-align:center;	center;
+	text-align:center		center;
 }
 
 .box3 li {
@@ -289,7 +289,6 @@ nav li img {
 	border-radius: 		28px;
 	margin-left: 		12.5%;
 	padding-top: 		1em;
-
 }
 
 .post-white-background {
@@ -480,7 +479,7 @@ button {
 }
 
 .login-button {
-	height: 50px;
+		height: 50px;
     width: 100%;
     text-align: center;
     border-radius: 28px;
@@ -488,6 +487,6 @@ button {
     outline: none;
     background-color: #044C7F;
     color: #fff;
-	font-size: 1.5em;
-	margin-bottom: 10px;
+		font-size: 1.5em;
+		margin-bottom: 10px;
 }
