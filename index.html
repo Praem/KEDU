@@ -1,10 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>KEDU</title>
-  </head>
-  <body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<title>KEDU</title>
+	</head>
+	<body>
+	
+	<!-- HEADER & NAVIGATION -->
+		<header>
+			<div class="header-left-container">
+				<a href="index.html"><img src="img/logo/kubo.png" alt="KUBO Logo"></a>
+				<div class="search-wrap">
+					<input type="text" class="search" placeholder="Søg">
+				</div>	
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html"><img src="img/headericon/tavle.svg" alt="tavle-siden"><br>Tavle</a></li>
+					<li><a href="undervisning.html"><img src="img/headericon/undervisning.svg" alt="undervisnings-siden"><br>Undervisning</a></li>
+					<li><a href=""><img src="img/headericon/meddelelser.svg" alt="meddelelses-siden"><br>Meddelelser</a></li>
+					<li><a href="faq.html"><img src="img/headericon/faq.svg" alt="faq-siden"><br>FAQ</a></li>
+					<li><a href="login.html"><img src="img/headericon/logud.svg" alt="logud"><br>Log ud</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+	<!-- BANNER -->
+		<div id="banner-container">
+			<div class="banner">
+				<div class="profile-pic">
+					<img src="img/profil/jk.png" alt="profilbillede for jk">
+				</div>
+				<div class="banner-text">
+					<b>Johny Kudo</b><br><p>joku@hoejbyskole.dk</p>
+				</div>
+			</div>
+		</div>
 
-  </body>
+	<!-- SIDE DIV CONTAINER-->
+		<div id="side-container">
+			<!-- BOX 1 -->
+			<div class="box1">
+				<h3><b>Om mig</b><h3>
+				<ul>
+					<li><i>Arbejder på</i><br><b>Højby Skole, 0 - 3 Kl.</b></li>
+					<li><i>Har studeret på</i><br><b>UCL, Odense</b></li>
+					<li><i>Har studeret på</i><br><b>Sct. Knuds Gymnasium</b></li>
+					<li><i>Bor i</i><br><b>Odense, Danmark</b></li>	
+				</ul>
+		</div>
+
+			<!-- BOX 2 -->
+			<div class="box2">
+				<h3><b>Populær</b><h3>
+				<ul>
+					<li>#KuboRobotics</li>
+					<li>#MineElever</li>
+					<li>#LæringOgSjov</li>
+					<li>#AktiveElever</li>
+					<li>#SjoveUndervisningsMetoder</li>
+					<li>#RobotterIUndervisningen</li>
+				</ul>
+			</div>
+
+			<!-- BOX 3 -->
+			<div class="box3">
+				<h3><b>Kategorier</b><h3>
+				<ul>
+					<li>Dansk</li>
+					<li>Engelsk</li>
+					<li>Tysk</li>
+					<li>Matematik</li>
+					<li>Historie</li>
+					<li>Religion</li>
+				</ul>
+			</div>	
+		</div>
+		
+	<!-- MAIN DIV CONTAINER-->
+		<div id="main-container">
+			<div class="bg-box">
+				<div class="post">
+					<div class="post-white-background">
+						<img src="img/profil/jk.png" alt="profilbillede for jk">
+						<input type="text" id="noteText"/>
+					</div>
+					<button id="addNote">Slå op</button>
+				</div>
+				<ul id="post-section">
+					
+				</ul>
+			</div>
+		</div>	
+		
+    <script src="assets/js/script.js"></script>
+	</body>
 </html>
