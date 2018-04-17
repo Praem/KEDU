@@ -43,7 +43,7 @@ function buildList() {
     pElm.innerHTML = '<div class="post-content">' + notes[i].text + '</div><div class="post-meta"><div class="post-info">1 Lyke, mothafucka</div><div class="post-buttons"><b>ABE</b>DCFG</div></div>';
     pElm.classList.add('NewPost');
     pElm.setAttribute("data-index", i);
-	
+
 	var post = pElm;
 
     pElm.addEventListener('click', function(event)
