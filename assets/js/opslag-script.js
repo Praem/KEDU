@@ -27,6 +27,7 @@ function submitNote(inputText, inputDate, inputImportant, inputIcon) {
   setLocal(origNotes);
 }
 
+
 function buildList() {
   var notes = getLocal();
 
@@ -35,45 +36,15 @@ function buildList() {
 
   for(var i = 0; i < notes.length; i++) {
     var liElm = document.createElement('li');
-
     var pElm = document.createElement('div');
 
-    var pElm = document.createElement('p');
-    var editBtn = document.createElement('button');
-    editBtn.innerHTML = 'Edit';
-
-    editBtn.addEventListener('click', function() {
-      
-    });
 
 
-
-
-    pElm.innerHTML = '<div class="post-content">' + notes[i].text + '</div><div class="post-meta"><div class="post-info">0 Likes, 0 Kommentar</div><div class="post-buttons"><img src="img/opslag/thumbs-up.svg">Like</div><div class="post-buttons"><img src="img/opslag/message.svg">Kommentar</div><div class="post-buttons"><img src="img/opslag/forward.svg">Del</div></div>';
+    pElm.innerHTML = '<div class="post-content">' + notes[i].text + '</div><div class="post-meta"><div class="post-info">1 Lyke, mothafucka</div><div class="post-buttons"><b>ABE</b>DCFG</div></div>';
     pElm.classList.add('NewPost');
     pElm.setAttribute("data-index", i);
 	
 	var post = pElm;
-
-    pElm.innerHTML = notes[i].text;
-    pElm.classList.add('pinkUnicorn');
-    pElm.setAttribute('data-index', i);
-
-
-    pElm.addEventListener('click', function(event) {
-      var index = event.target.getAttribute('data-index')
-      var notes = getLocal();
-      console.log(notes[index]);
-      // notes[index].text = "Changed";
-      var inputTemp = document.querySelector('#noteText');
-      inputTemp.value = notes[0];
-      setLocal(notes);
-      buildList();
-    });
-
-    liElm.appendChild(pElm);
-    liElm.appendChild(editBtn);
-
 
     pElm.addEventListener('click', function(event)
     {
