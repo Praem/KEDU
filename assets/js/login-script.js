@@ -15,8 +15,3 @@ window.location.replace("index.html");
 window.alert("Forkert brugernavn eller adgangskode!");
 }
 }*/
-
-function homePage()
-{
-window.Location.replace("index.html");
-}
