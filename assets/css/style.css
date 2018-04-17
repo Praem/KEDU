@@ -452,7 +452,7 @@ button {
 \*------------------------------------*/
 
 
-#bg-for-login {
+.bg-for-login {
 		background: url(../../login.png);
     background-repeat: no-repeat;
     background-size: cover;

@@ -3,7 +3,7 @@
 function clicked() {
 	var bruger = document.getElementById('brugernavn');
 	var kode = document.getElementById('adgangskode');
-	alert("Virker det her?");
+
 	var eksbruger = "Johnykudo";
 	var ekskode = "12345";
 
